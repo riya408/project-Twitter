@@ -1,0 +1,165 @@
+.mainSectionContainer{
+  
+  height: 98.5vh;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  text-align: center;
+ 
+  
+  
+  
+}
+
+.section1 {
+  margin-left: 7rem;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+ position:sticky;
+ 
+ 
+ 
+}
+.div1 {
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9rem;
+  width: max-content;
+  padding-right: .8rem;
+}
+.div1:hover {
+  background-color: rgb(225, 222, 222);
+}
+.iconContainer {
+  margin-right: 1.5rem;
+  
+}
+
+.icons {
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: start;
+  font-size: 3rem;
+  padding: 0.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  
+}
+.text {
+  
+  font-size: 1.2rem;
+  font-weight: 5rem;
+  cursor: pointer;
+ 
+}
+
+.btnTweet{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.twitterIcon{
+    display: flex;
+  text-align: start;
+  flex-direction: column;
+  margin-left: .5rem;
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+  color:#007bff;
+  width: fit-content;
+  padding: .4rem;
+  cursor: pointer;
+
+ 
+  border-radius: 40px;
+
+  
+}
+.twitterIcon:hover{
+    background-color: #d2e8ff;
+
+}
+.dailogTweet{
+   
+    padding: 2rem;
+    
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+   
+    margin-left: 110px;
+    position: fixed;
+    
+}
+.btn{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img{
+   
+  
+  height: 5vh;
+  width: 2.5vw;
+  border-radius: 100px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  color: rgb(29, 155, 240) ;
+  cursor: pointer;
+}
+.close{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+@media screen and (max-width:780px){
+  .mainSectionContainer{
+    width:5rem;
+    border:2px solid blue
+  }
+  .section1{
+    width: 5rem;
+    margin: 0rem;
+    border: 1px solid red;
+   
+  }
+  .text{
+    display: none;
+
+  }
+  .twitterIcon{
+    margin-left: .8rem;
+  }
+  .icons{
+    
+    margin-left: .7rem;
+  }
+}
+@media screen and (max-width:450px) {
+  .mainSectionContainer{
+    display: none;
+  }
+  
+}

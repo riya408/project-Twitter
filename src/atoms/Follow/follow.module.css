@@ -1,0 +1,71 @@
+
+.Main{
+    
+    width: 20rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    
+   
+    
+   
+}
+
+.container{
+  
+   width: 19rem;
+    display: flex;
+    align-items:center; 
+     justify-content:space-between; 
+     margin-bottom: 1rem;
+     padding: .3rem;
+     
+     
+}
+.container:hover{
+    background-color: rgb(193, 192, 192);
+}
+.middle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: .4rem;
+ 
+    
+    
+}
+.image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+     margin-right: .4rem; 
+   
+}
+.btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+     margin-right: .4rem; 
+    
+}
+.handlername{
+    color: rgb(83, 80, 80);
+}
+.container2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show{
+    color:rgb(42, 150, 228);
+    margin-bottom: 1rem;
+    width: 19rem;
+}
+.show:hover{
+    background-color: rgb(193, 192, 192);
+}

@@ -1,0 +1,27 @@
+.container{
+    
+    margin-top:1rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    width:20rem;
+    padding: 0.7rem;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color:rgb(216, 218, 218);
+    cursor: pointer;
+}
+.heading{
+    font-weight:700 ; 
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+}
+.show{
+    color:rgb(42, 150, 228);
+    margin-bottom: 1rem;
+    width: 19rem;
+}
+.show:hover{
+    background-color: rgb(193, 192, 192);
+}

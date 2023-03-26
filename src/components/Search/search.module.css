@@ -1,0 +1,14 @@
+.main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    /* padding: 0.2rem; */
+     width:21.5rem; 
+     background-color: rgb(216, 218, 218);
+     color: rgb(122, 120, 120);
+     
+     
+    
+}

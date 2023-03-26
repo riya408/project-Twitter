@@ -1,0 +1,27 @@
+.main{
+   
+    margin-bottom:1rem;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    width: 21rem;
+    
+   
+}
+
+.link{
+    color:grey;
+   
+    margin-right: 0.7rem;
+    margin-bottom:0.5rem ;
+    font-size: 0.9rem;
+    text-decoration: none;
+    
+}
+.link:hover{
+    text-decoration: underline;
+}
+.para{
+    color:grey;
+    font-size: 0.9rem;
+}

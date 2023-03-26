@@ -1,0 +1,21 @@
+.container{
+    
+    width: 20rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+   background-color:rgb(216, 218, 218);
+   padding: 0.7rem;
+   cursor: pointer;
+   /* z-index:-1 ;  */
+   /* position: relative; */ 
+   
+}
+.heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.show:hover{
+    background-color: rgb(193, 192, 192);
+}

@@ -1,0 +1,84 @@
+
+.main{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+
+
+.container{
+      
+      display: flex;
+    align-items:center; 
+     justify-content: space-evenly; 
+     border-radius: 30px;
+     padding: .3rem;
+     margin-right: .4rem;
+     border: 2px solid purple;
+}
+.container:hover{
+    background-color: rgb(225, 222, 222);
+}
+.image{
+  
+    width: 2.2rem;
+    padding: 0.3rem;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .4rem;
+   
+ 
+}
+.imgStyle{
+    width:fit-content;
+    height:4vh;
+   
+}
+.middle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: .4rem;
+ 
+    
+    
+}
+.headings{
+   
+    padding: 0;
+    cursor: pointer;
+}
+/* .h1 :hover{
+    background-color: rgb(19, 13, 13);
+} */
+
+
+
+.handleName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: .4rem;
+   
+}
+.handleIcon{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: .4rem;
+   
+
+}
+@media screen and (max-width:770px){
+    .container{
+        display:  none;
+    }
+    
+}

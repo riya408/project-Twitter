@@ -1,0 +1,279 @@
+/* 
+.section{
+    width :60rem ;
+    height:80rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 25rem;
+    
+    
+    /* position: relative;
+    overflow-y: scroll;
+    scroll-behavior:auto ;
+    height: auto;
+     */
+/* 
+.top{
+    display :flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px red solid;
+     margin-bottom: 5rem; 
+
+.top>h3{
+    /* margin-top: 0rem;  */
+
+/* .top>h6{ */
+    /* /* margin-top:-1.2rem; 
+} 
+.maintop{
+    /* margin-top: -1rem; 
+    background-color:rgb(75, 73, 73);
+    width:40rem;
+    height:14rem;
+    
+}
+
+.mainbottom{
+    /* margin-top: rem; 
+    background-color:white;
+    width:40rem;
+    height:14rem;
+  border:3px green solid;
+
+}
+.mainbottom>div{
+   position: absolute;
+   transform: translate3d(20%,-50%,0);
+}
+
+.mainbottom>h3{
+    /* margin-top: 4rem; 
+    margin-left: 0.6rem;
+ }
+.mainbottom>h5{
+   margin-top: -1.2rem;
+   margin-left: 0.6rem;
+   color:rgb(80, 69, 69);
+}
+.calender{
+    display: flex;
+    align-items: center;
+    margin-left:-1.5rem;
+    margin-left: -1rem;
+    
+}
+.calender>h6{
+    color:rgb(80, 69, 69);  
+}
+.mainbottom>h6{
+    margin-top:3rem ;
+    color:rgb(80, 69, 69);
+    margin-left: 0.6rem;
+    ;
+ }
+.mainbottom>button{
+    font-weight: bold;
+    
+} */
+
+
+
+.section{
+    width :40rem ;
+    height:80rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 25rem;
+    
+    /* position: relative;
+    overflow-y: scroll;
+    scroll-behavior:auto ;
+    height: auto;
+     */
+}
+.container{
+ 
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+/* .top{
+    display: flex;
+} */
+.top>h3{
+    margin-top: 0rem; 
+}
+.top>h6{
+    margin-top:-1.2rem;
+}
+.maintop{
+    margin-top: -1.5rem;
+    background-color:lightgray;
+    width:40rem;
+    height:14rem;
+    
+}
+
+.mainbottom{
+    margin-top: -1.5rem;
+    background-color:white;
+    width:40rem;
+    height:14rem;
+    background-color: white;
+
+}
+.mainbottom>div{
+   position: absolute;
+   transform: translate3d(20%,-50%,0);
+}
+
+.mainbottom>h3{
+    margin-top: 4rem;
+    margin-left: 0.6rem;
+ }
+.mainbottom>h5{
+   margin-top: -1.2rem;
+   margin-left: 0.6rem;
+   color:rgb(80, 69, 69);
+}
+.calender{
+    display: flex;
+    align-items: center;
+    margin-left:-1.5rem;
+    margin-left: -1rem;
+    
+}
+.calender>h6{
+    color:rgb(80, 69, 69);  
+}
+.mainbottom>h6{
+    margin-top:3rem ;
+    color:rgb(80, 69, 69);
+    margin-left: 0.6rem;
+    ;
+ }
+.mainbottom>button{
+    font-weight: bold;
+    
+}
+
+
+
+.container{
+ 
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    
+}
+.main{
+    overflow-y:scroll ;
+    overflow: hidden;
+    /* height: 40rem; */
+    border: 1px solid rgb(188, 184, 184);
+    width: 100%;
+  
+    
+}
+.main:hover{
+    background-color: rgb(239, 233, 233);
+}
+.container1{
+  
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.img{
+   
+     width: 85%; 
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    /* margin-left: 3rem;  */
+     height: 100%; 
+     
+}
+.imgIcon{
+    width:2.5rem
+}
+.icons{
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color:rgb(96, 94, 94)
+}
+.icons :hover{
+    color: rgb(147, 14, 14);
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more{
+color:rgb(155, 151, 151);
+}
+
+.caption{
+    margin-left: 4rem;
+    text-align:left;
+}
+.dailog{
+
+    padding: 3rem;
+    width: 20rem;
+    height: 20rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    
+    width: 20rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+
+}
+.links{
+   
+    margin-left: 4rem;
+    color:rgb(11, 114, 177)
+}
+.links:hover{
+    text-decoration: underline;
+}
+.hashtags{
+    margin-left: 4rem;
+    color:rgb(11, 114, 177)
+}
+.name{
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+.topper{
+    border:3px rgb(115, 0, 255) solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+

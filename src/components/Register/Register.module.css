@@ -1,0 +1,50 @@
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dob {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.next {
+  border: 2px rgb(116, 109, 109) solid;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  width: 300px;
+  
+  font-weight: 800px;
+}
+@media screen and (max-width : 510px){
+  .next{
+    border-radius: 20px;
+  }
+  /* .title{
+    font-size: .2rem;
+    font-weight: 600;
+   
+  } */
+  .inputDiv{
+    border-radius: 20px;
+  }
+}

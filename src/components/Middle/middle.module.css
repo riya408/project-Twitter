@@ -1,0 +1,113 @@
+.section{
+    
+    /* border: 1px gray solid; */
+    width :40rem ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 25rem;
+    
+}
+.home{
+   
+    display: flex;
+    margin-bottom: 2.3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.nav{
+    border:1px rgb(147, 145, 145) solid;
+    width: 40rem;
+    /* padding: rem; */
+    margin-bottom: 2rem;
+    position: fixed;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    
+}
+.icon{
+    color: rgb(29, 155, 240) ;
+    cursor: pointer;
+}
+.img{
+   
+    height: 5vh;
+    width: 2.5vw;
+    border-radius: 100px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px lightgray solid;
+ 
+}
+.forYou{
+    
+    
+    position: sticky;
+    top: 6.1rem;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+
+
+}
+.div1{
+  
+display: flex;
+align-items: center;
+justify-content: center;
+width:20vw;
+font-size: 1rem;
+font-weight: 700;
+padding: 1rem;
+
+
+}
+.div1:hover{
+    background-color: rgb(218, 210, 210);
+}
+.div2{
+    /* border:2px rgb(128, 45, 0) solid; */
+    margin-top: 9rem;
+    
+    display:flex;
+    
+    flex-direction: column;
+}
+.div3{
+    
+ 
+  display: flex;
+align-items: center;
+justify-content: center;
+width:20vw;
+font-size: 1rem;
+
+padding:1rem;
+}
+.div3:hover{
+    background-color: rgb(218, 210, 210);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3.5rem;
+}
+.imageWrapper{
+    max-height: 20rem;
+    overflow: auto;
+}
+@media screen and (max-width:780px){
+    .section{
+        border: 2px solid red;
+        margin-left: 5.5rem;
+    }
+}

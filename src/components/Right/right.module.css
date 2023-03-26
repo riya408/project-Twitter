@@ -1,0 +1,24 @@
+.section {
+ margin-top: 0.5rem;
+ margin-right: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column; 
+   overflow: hidden; 
+  height: 150vh;
+  /* overflow:auto scroll ;
+  overscroll-behavior-y:contain; */
+ }
+@media screen and (max-height:768px) {
+  .section{
+    display: none;
+  }
+  
+}
+@media screen  and (max-height:450px){
+  .section{
+    display: none;
+  }
+  
+}
