@@ -1,0 +1,21 @@
+.SearchBoxContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  padding-left: 1rem;
+  border-radius: 35px;
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  /* position: sticky;
+    top: 0.5rem; */
+}
+
+.InputFieldContainer {
+  border: none;
+  outline-style: none;
+  font-size: medium;
+  height: 1rem;
+  background-color: #f0f0f0;
+  padding-left: 1rem;
+}

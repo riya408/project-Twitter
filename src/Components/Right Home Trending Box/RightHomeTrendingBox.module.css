@@ -1,0 +1,52 @@
+.TrendingBoxMainContainer {
+  margin-top: 1rem;
+}
+
+.TrendingBoxHeadingContainer {
+  font-weight: bolder;
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #f0f0f0;
+  padding: 0.9rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.TrendingBoxShowMoreContainer {
+  font-size: medium;
+  text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #f0f0f0;
+  padding: 0.9rem;
+  color: #00acee;
+  cursor: pointer;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.TrendingBoxShowMoreContainer:hover {
+  background-color: #dedddd;
+}
+
+.TrendingBox {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.TrendingBoxButtonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.TrendingBoxButtonContainer:hover {
+  background-color: #dedddd;
+}

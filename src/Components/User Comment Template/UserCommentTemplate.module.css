@@ -1,0 +1,191 @@
+.MiddleParentContainer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  flex: 1.1;
+  border: 1px solid rgb(214, 213, 213);
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+
+  /* padding-top: -2rem; */
+}
+
+/* .MiddleParentContainer {
+        display: grid;
+        grid-template-rows: 0.2fr 0.67fr 10fr;
+        padding-right: 2rem;
+    } */
+.MiddleHomeUserTweetBoxParentContainer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.MiddleHomeTweetBoxButtonContainer {
+  padding-bottom: 1rem;
+  width: 36rem;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  font-family: "Poppins", sans-serif;
+}
+
+.MiddleHomeUserTweetBoxInput {
+  font-family: "Poppins", sans-serif;
+  padding: 2rem 3rem 4rem 0;
+  border: none;
+  font-size: large;
+  position: relative;
+  right: 1rem;
+  top: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.MiddleHomeUserTweetBoxInput:focus {
+  outline: none;
+}
+
+.photo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100%;
+  position: relative;
+  right: 2.5rem;
+  top: 0.5rem;
+}
+
+.TweetButtonStyle:hover {
+  background-color: #0098d4;
+}
+
+.DialogTweetButtonStyle {
+  color: white;
+  background-color: #00acee;
+  font-size: medium;
+  border: none;
+  width: 6vw;
+  height: 5vh;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-right: 0.1rem;
+  margin-left: 10rem;
+  position: relative;
+  left: 3rem;
+}
+.DialogTweetButtonStyle:hover {
+  background-color: #0098d4;
+}
+
+.DialogTweetIconStyle {
+  color: #00acee;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  left: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .main {
+    flex: 1.1;
+    border: 1px solid rgb(214, 213, 213);
+    text-align: left;
+    /* padding-top: -2rem; */
+  }
+  .subMain {
+    background-color: rgb(255, 255, 255, 0.899);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    height: 7.5rem;
+    margin-top: -0.8rem;
+    position: sticky;
+    top: 0;
+  }
+  .head {
+    margin-left: 1rem;
+    font-size: 1.35rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: -1rem; */
+  }
+  .forYou {
+    border: 1px solid rgba(214, 214, 214, 0.5);
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    margin-top: -0.6px;
+    cursor: pointer;
+  }
+  .forYou:hover {
+    background-color: rgba(214, 214, 214, 0.5);
+  }
+  .postContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+    border: 1px solid rgba(214, 214, 214, 0.5);
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  .userProfle {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 5px;
+  }
+
+  .profilePic {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 5px;
+  }
+
+  .postSubContainer {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.1rem ; */
+    /* margin:1rem 1rem; */
+    /* margin-left: 1rem; */
+  }
+  .postUserName {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  .postHandleName {
+    color: rgb(91, 89, 89);
+  }
+  .tweetPic {
+    border-radius: 1.1rem;
+    /* margin-left: 1rem; */
+  }
+  .iconsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    height: 2rem;
+  }
+  .subIconsWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .icons {
+    color: gray;
+    font-size: 1.1rem;
+  }
+  .iconText {
+    color: gray;
+    font-size: 0.8rem;
+  }
+  .heartIcon {
+    color: rgb(255, 3, 3);
+    font-size: 1.1rem;
+  }
+}

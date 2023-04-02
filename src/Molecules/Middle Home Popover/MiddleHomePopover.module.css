@@ -1,0 +1,6 @@
+.PopoverOptions {
+    cursor: pointer;
+}
+.PopoverOptions:hover {
+    background-color: gainsboro;
+}

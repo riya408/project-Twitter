@@ -1,0 +1,132 @@
+.ProfileMainContainer {
+  display: grid;
+  grid-template-rows: 0.055fr 0.18fr 0.31fr;
+  width: 36rem;
+  border: 1px solid gainsboro;
+}
+
+.ProfileHeadingContainer {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: left;
+  margin-top: 0.1rem;
+  display: inline-block;
+}
+
+.ProfileHeading3Container {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.ProfileHeadingParaContainer {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: small;
+  margin-left: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.ProfilePhotoImageContainer {
+  height: 7.9rem;
+  width: 7.9rem;
+  border: 4px solid white;
+  border-radius: 555px;
+  position: relative;
+  top: 4.6rem;
+  right: 12.8rem;
+  cursor: pointer;
+}
+
+.ArrowIconStyle {
+  position: relative;
+  bottom: 1rem;
+}
+
+.ProfilePhotoContainer {
+  background-color: #cfd9e0;
+  /* padding-right: 24rem; */
+  color: #cfd9e0;
+}
+.ProfileDetailsContainer {
+  text-align: left;
+}
+
+
+.ProfileEditButton {
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 55px;
+  font-size: 0.9rem;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border: 1px solid rgb(190, 190, 190);
+  cursor: pointer;
+  position: relative;
+  bottom: 13rem;
+  left: 28rem;
+}
+
+.ProfileEditButton:hover {
+  background-color: gainsboro;
+}
+
+.ProfileTodoButton {
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  width: 9rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+ 
+
+}
+
+.ProfileTodoButton:hover {
+  background-color: gainsboro;
+}
+.FloatingActionButton {
+  display: none;
+}
+
+@media only screen and (max-width: 376px) {
+  .ProfileMainContainer {
+    /* width: 14rem; */
+    width: 23.36rem;
+  }
+
+  .FloatingActionButton {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .ProfileTodoButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.85rem;
+    font-size: 0.96rem;
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  }
+
+  .ProfileEditButton {
+    position: relative;
+    bottom: 13rem;
+    left: 16rem;
+  }
+
+  .ProfilePhotoImageContainer {
+    height: 7.9rem;
+    width: 7.9rem;
+    position: relative;
+    top: 4.6rem;
+    right: 6.6rem;
+  }
+
+  .ProfilePhotoContainer {
+    width: 23.4rem;
+  }
+}

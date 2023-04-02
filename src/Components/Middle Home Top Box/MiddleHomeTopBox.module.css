@@ -1,0 +1,97 @@
+.MiddleHomeTopBoxContainer {
+  border-bottom: 1px solid gainsboro;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  /* backdrop-filter: blur(0.8rem); */
+}
+
+.MiddleHomeTopBoxHeadingContainer {
+  padding-left: 1rem;
+  text-align: left;
+  margin-top: 0.8rem;
+  height: 1.4rem;
+}
+
+.MiddleHomeTopBoxButtonContainer {
+  padding: 1.2rem;
+  width: 18rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  z-index: 100;
+}
+.TwitterIconContainer {
+  display: none;
+}
+
+.MiddleHomeTopBoxButtonContainer:hover {
+  background-color: gainsboro;
+}
+.TwitterIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 376px) {
+  .TwitterIconContainer {
+    display: flex;
+    gap: 8.9rem;
+    height: 2.5rem;
+  }
+  .ProfilePhotoImageContainer {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 555px;
+    position: relative;
+    left: 0.9rem;
+    top: 0.4rem;
+  }
+
+  .MiddleHomeTopBoxHeadingContainer {
+    display: none;
+  }
+  .MiddleHomeTopBoxButtonContainer {
+    padding: 1rem;
+    background-color: white;
+    width: 11.685rem;
+  }
+
+  .TwitterIcon {
+    display: block;
+    text-align: left;
+    margin-top: 0.6rem;
+    height: 1.4rem;
+    color: #00acee;
+  }
+  .AccountInfoHeading {
+   
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 0.7rem;
+  }
+  .ProfilePhotoDrawerContainer {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 555px;
+    margin-left: 1rem;
+  }
+  .UserPhoneOrEmailContainer {
+    position: relative;
+    bottom: 1rem;
+    margin-left: 1rem;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .UserNameContainer {
+    position: relative;
+    bottom: 2rem;
+    margin-left: 0.9rem;
+    font-size: 0.96rem;
+  }
+}

@@ -1,0 +1,637 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37rem;
+  height: 40rem;
+  padding-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  line-height: calc(36rem / 16);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2.5rem;
+}
+.btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 20rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(228, 225, 225);
+}
+.btnNext {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnNext:hover {
+  background-color: rgb(35, 35, 35);
+}
+.or {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.input {
+  width: 100%;
+  height: 3.3rem;
+  margin-top: 0.75rem;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  width: 18rem;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.mainNextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  height: 38rem;
+  font-family: "Poppins", sans-serif;
+}
+.nextContainer {
+  /* border:0.1rem solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.inputUserName {
+  width: 25rem !important;
+  height: 3.5rem;
+  margin-top: 1rem !important;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  width: 18.75rem;
+  border: 1px solid lightgray;
+  border-radius: 0.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.ForgotText {
+  color: #00acee;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+.ForgotText1 {
+  color: #00acee;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+.ForgotText1:hover {
+  text-decoration: underline;
+  text-decoration-color: #00acee;
+  cursor: pointer;
+}
+
+.btnLogin {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 28rem !important;
+  height: 3.5rem !important;
+  border-radius: 27px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnLoginDisable {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  width: 28rem !important;
+  height: 3.5rem !important;
+  border-radius: 27px;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnLogin1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 28rem !important;
+  height: 3.5rem !important;
+  border-radius: 27px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+.btnLoginDisable1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  width: 28rem !important;
+  height: 3.5rem !important;
+  border-radius: 27px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+  border: 0.01rem solid grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #00acee;
+}
+
+.buttonStyleSignUp {
+  color: white;
+  background-color: black;
+  font-size: medium;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleSignUp:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.858);
+}
+
+.buttonStyleGoogle {
+  border: 1px solid gray;
+  background-color: white;
+  font-size: medium;
+  width: 19.4rem;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.buttonStyleGoogle:hover {
+  background-color: gainsboro;
+}
+
+.buttonStyleApple {
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bolder;
+  font-size: medium;
+  width: 19.4rem;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-bottom: 1.6rem;
+}
+
+.buttonStyleApple:hover {
+  background-color: gainsboro;
+}
+
+.buttonStyleFP {
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bolder;
+  font-size: medium;
+  width: 19.4rem;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.8rem;
+  cursor: pointer;
+}
+
+.buttonStyleFP:hover {
+  background-color: gainsboro;
+}
+
+.buttonStyleSubmit {
+  color: white;
+  background-color: black;
+  font-size: medium;
+  padding: 1.7rem;
+  width: 28vw;
+  height: 5vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyleSubmit:hover {
+  background-color: rgba(0, 0, 0, 0.817);
+}
+
+.para {
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 5px 0 5px;
+  margin-bottom: 1.4rem;
+}
+
+.paraSpan {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.buttonStyleNext {
+  color: white;
+  background-color: black;
+  font-size: medium;
+  width: 19.4rem;
+  height: 5vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.buttonStyleNext:hover {
+  background-color: rgba(0, 0, 0, 0.858);
+}
+
+.TermsDecoration {
+  color: #00acee;
+  cursor: pointer;
+}
+
+.TermsDecoration:hover {
+  text-decoration: underline;
+  text-decoration-color: #00acee;
+}
+
+.FooterRouter {
+  text-decoration: none;
+  color: #00acee;
+}
+
+.FooterRouter:hover {
+  text-decoration: underline;
+  text-decoration-color: #00acee;
+}
+
+.FooterSpan1 {
+  position: relative;
+  bottom: 3rem;
+}
+
+.FooterRouter1 {
+  text-decoration: none;
+  color: #00acee;
+}
+
+.FooterRouter1:hover {
+  text-decoration: underline;
+  text-decoration-color: #00acee;
+}
+.DialogContainer {
+  box-shadow: none;
+}
+
+/* @media only screen and (max-width: 376px) { */
+
+@media only screen and (max-width: 656px) {
+  .container {
+    width: 29rem;
+    height: 40rem;
+    padding-top: 0;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .container {
+    width: 25rem;
+    height: 40rem;
+    padding-top: 0;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  /* * {
+    background-color: white;
+  } */
+
+  .container {
+    width: 19rem;
+    height: 40rem;
+    font-size: 0.8rem;
+  }
+  .icon {
+    margin-top: 0;
+  }
+  .heading {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .ForgotText1 {
+    font-size: 0.8rem;
+    width: 16rem;
+  }
+
+  .mainNextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23rem;
+
+  }
+  
+  .btnLoginDisable1 {
+    width: 16rem !important;
+    height: 2.5rem !important;
+    border-radius: 27px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+  }
+
+  .btnLogin1 {
+    width: 16rem !important;
+    height: 2.5rem !important;
+    border-radius: 27px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .buttonStyleGoogle {
+    border: 1px solid gray;
+    background-color: white;
+    font-size: medium;
+    width: 15rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttonStyleApple {
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bolder;
+    font-size: medium;
+    width: 15rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.6rem;
+  }
+
+  .para {
+    width: 15rem;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 5px 0 5px;
+    margin-bottom: 1.4rem;
+    font-size: 1rem;
+  }
+
+  .inputUserName {
+    width: 15rem !important;
+    height: 2.5rem;
+    margin-top: 1rem !important;
+    padding-left: 1rem;
+    font-size: 1rem;
+    width: 18.75rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .inputUser {
+    width: 15rem !important;
+    height: 2.5rem !important;
+    margin-top: 1rem !important;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    width: 18.75rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .input {
+    width: 13.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttonStyleNext {
+    color: white;
+    background-color: black;
+    font-size: medium;
+    width: 15rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+  }
+
+  .buttonStyleFP {
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bolder;
+    font-size: medium;
+    width: 15rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+  }
+
+  .FooterSpan1 {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+}
+
+/* @media only screen and (max-width: 415px) {
+  .container {
+    width: 21.9rem;
+    height: 52rem;
+  }
+  .icon {
+    margin-top: 1.8rem;
+  }
+  .heading {
+    font-size: 1.85rem;
+    margin-bottom: 4rem;
+  }
+
+  .buttonStyleGoogle {
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 1.1rem;
+    width: 17rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+
+  .buttonStyleApple {
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    width: 17rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.6rem;
+  }
+
+  .para {
+    width: 17rem;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 5px 0 5px;
+    margin-bottom: 1.4rem;
+    font-size: 1.1rem;
+  }
+
+  .input {
+    width: 15.5rem;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttonStyleNext {
+    color: white;
+    background-color: black;
+    font-size: 1.1rem;
+    width: 17rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+  }
+
+  .buttonStyleFP {
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    width: 17rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+  }
+
+  .FooterSpan {
+    font-size: 1.05rem;
+  }
+} */

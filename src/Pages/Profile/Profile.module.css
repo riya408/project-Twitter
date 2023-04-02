@@ -1,0 +1,24 @@
+.ProfileContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+
+  text-align: center;
+  padding: 0 8.4rem;
+}
+
+
+
+@media only screen and (max-width: 376px) {
+  .LeftHomeSectionContainer {
+    display: none;
+  }
+
+  .ProfileContainer {
+    padding: 0;
+  }
+
+  .RightHomeSectionContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.ThreadContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 0 8.4rem;
+  grid-gap: 2rem;
+}
+
+
+
+@media only screen and (max-width: 376px) {
+  .LeftHomeSectionContainer {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .ThreadContainer {
+    padding: 0;
+  }
+
+  .RightHomeSectionContainer {
+    /* visibility: hidden; */
+    display: none;
+  }
+}

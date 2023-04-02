@@ -1,0 +1,49 @@
+.TwitterIconStyle {
+  color: #00acee;
+  margin-top: 0.3vw;
+  margin-left: 0.4vw;
+  padding: 0.6rem;
+  border-radius: 50px;
+}
+
+.TwitterIconStyle:hover {
+  background-color: rgb(220, 242, 251);
+}
+
+.LeftSectionButtons {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 2em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.ButtonInformation {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem;
+  gap: 1.2rem;
+}
+
+.LeftSectionButtons:hover {
+  background-color: gainsboro;
+}
+
+.homeIcon {
+  color: black;
+}
+
+.profileIcon {
+  color: black;
+}
+.homeTitle {
+  text-decoration: none;
+  color: black;
+}
+
+.profileTitle {
+  text-decoration: none;
+  color: black;
+}

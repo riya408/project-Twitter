@@ -1,0 +1,62 @@
+.TweetButtonStyle {
+  color: white;
+  background-color: #00acee;
+  font-size: medium;
+  padding: 1.7rem;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.TweetButtonStyle:hover {
+  background-color: #0098d4;
+}
+
+.DialogTweetButtonStyle {
+  color: white;
+  background-color: #00acee;
+  font-size: medium;
+  border: none;
+  width: 6rem;
+  height: 5vh;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-left: 4rem;
+  position: relative;
+  bottom: 0.2rem;
+}
+.DialogTweetButtonStyle:hover {
+  background-color: #0098d4;
+}
+
+.DialogTweetIconStyle {
+  color: #00acee;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  left: 1.5rem;
+  bottom: 0.2rem;
+}
+
+.MiddleHomeUserTweetBoxInput {
+  font-family: "Poppins", sans-serif;
+  padding: 2rem 3rem 4rem 2rem;
+  border: none;
+  font-size: large;
+  position: relative;
+  left: 2rem;
+}
+.MiddleHomeUserTweetBoxInput:focus {
+  outline: none;
+}

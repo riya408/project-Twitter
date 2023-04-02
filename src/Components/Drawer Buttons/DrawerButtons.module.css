@@ -1,0 +1,20 @@
+.LeftSectionButtons {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 2em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.ButtonInformation {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem;
+  gap: 1.2rem;
+  height: 2.5rem;
+  position: relative;
+  bottom: 3.3rem;
+}

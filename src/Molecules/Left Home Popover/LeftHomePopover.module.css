@@ -1,0 +1,37 @@
+.btn {
+  width: 16rem;
+  height: 4.2rem;
+  border-radius: 40px;
+  background-color: white;
+  border: white;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  justify-content: space-between;
+  padding-right: 1rem;
+  margin-top: 6.9rem;
+}
+
+.btn:hover {
+  background-color: gainsboro;
+}
+
+.photo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  margin-left: 0.4rem;
+}
+
+.PopoverOptions {
+  cursor: pointer;
+}
+
+.PopoverOptions:hover {
+  background-color: gainsboro;
+}

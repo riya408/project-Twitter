@@ -1,0 +1,38 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.HomeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 0 8.4rem;
+  grid-gap: 2rem;
+}
+
+/* .LeftHomeSectionContainer {
+  background-color: aquamarine;
+}
+
+.MiddleHomeSectionContainer {
+  background-color: forestgreen;
+}
+
+.RightHomeSectionContainer {
+  background-color: hotpink;
+} */
+
+@media only screen and (max-width: 376px) {
+  .LeftHomeSectionContainer {
+    display: none;
+  }
+
+  .HomeContainer {
+    padding: 0;
+  }
+
+  .RightHomeSectionContainer {
+    display: none;
+  }
+}

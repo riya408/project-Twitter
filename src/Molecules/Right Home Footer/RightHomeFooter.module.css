@@ -1,0 +1,28 @@
+.RightHomeFooterContainer {
+  text-align: left;
+  margin: 1rem;
+  /* position: sticky;
+  top: 14rem;
+  z-index: 2; */
+}
+
+.RightHomeFooter {
+  font-size: 0.79rem;
+  margin-right: 0.5rem;
+  color: #536471;
+  display: inline-flex;
+  align-items: center;
+}
+
+.RightHomeFooterCred {
+  font-size: 0.8rem;
+  padding-bottom: 4rem;
+  color: #536471;
+  position: relative;
+  bottom: 0.9rem;
+}
+
+.RightHomeFooter:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
